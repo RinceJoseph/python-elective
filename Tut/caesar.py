@@ -19,5 +19,5 @@ for ch in ciphertext:
         ordinal_ch = ord('z') - (ord('a') - ordinal_ch - 1)
     new_ch = chr(ordinal_ch)
     decrypted_message += new_ch
-
+    
 print("Decrypted message:", decrypted_message)
